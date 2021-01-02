@@ -260,3 +260,38 @@ img{
 .footer li {
     line-height: 1.9;
 }
+/* Responsivebility */
+
+@media(max-width: 940px){
+    .showcase{
+        height: 70vh;
+    }
+    .hide-sm{
+        display: none;
+    }
+    .showcase-top img {
+        top: 30%;
+        left: 5%;
+        transform: translate(0);
+    }
+    .showcase-content h1{
+        font-size:  3.5rem;
+        line-height: 1;
+    }
+    .showcase-content p {
+        font-size: 1.5rem;
+    }
+    .btn-xl{
+        font-size: 1.5rem;
+        padding: 1.4rem  2rem;
+    }
+    .text-lg{
+        font-size: 1.3rem;
+    }
+    .text-md{
+        font-size: 1rem;
+    }
+    .footer .footer-cols{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
