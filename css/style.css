@@ -151,7 +151,9 @@ img{
     padding: 0.8rem 1.3rem;
     text-transform: uppercase;
 }
-
+.btn-icon{
+    margin-left: 1rem;
+}
 /* Tabs styles */
 .tabs{
     background: var(--dark-color);
@@ -190,7 +192,9 @@ img{
     color:#fff;
 }
 /* Hide Content initial */
-#tab-1-content, #tab-2-content, #tab-3-content{
+#tab-1-content, 
+#tab-2-content, 
+#tab-3-content {
     display: none;
 }
 .show {
@@ -206,7 +210,7 @@ img{
 
 #tab-2-content .tab-2-content-top{
     display: grid;
-    grid-template-columns:  2fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-gap: 1rem;
     justify-content: center;
     align-items: center;
