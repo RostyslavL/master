@@ -181,13 +181,20 @@ img{
     cursor: pointer;
 }
 .tab-border{
-    border-bottom:var(--primary-color) 5px solid;
+    border-bottom: var(--primary-color) 5px solid;
 }
 /* Tabs Content */
 .tab-content{
     padding: 3rem;
     background: #000;
     color:#fff;
+}
+/* Hide Content initial */
+#tab-1-content, #tab-2-content, #tab-3-content{
+    display: none;
+}
+.show {
+    display: block !important;
 }
 #tab-1-content .tab-1-content-inner{
     display: grid;
